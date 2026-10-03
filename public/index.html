@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Expense Tracker & Analytics</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <div class="summary-cards">
+      <div class="card"><h3>Total Balance</h3><p id="total-balance">₹0.00</p></div>
+      <div class="card income"><h3>Income</h3><p id="total-income">₹0.00</p></div>
+      <div class="card expense"><h3>Expenses</h3><p id="total-expense">₹0.00</p></div>
+    </div>
+    <div class="grid">
+      <div class="form-section">
+        <h2>Add Transaction</h2>
+        <form id="transaction-form">
+          <input type="text" id="title" placeholder="Title (e.g. Salary, Rent)" required />
+          <input type="number" id="amount" placeholder="Amount (e.g. 5000)" required />
+          <select id="type">
+            <option value="expense">Expense</option>
+            <option value="income">Income</option>
+          </select>
+          <select id="category">
+            <option value="Food">Food</option>
+            <option value="Rent">Rent</option>
+            <option value="Utilities">Utilities</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Salary">Salary</option>
+            <option value="Other">Other</option>
+          </select>
+          <button type="submit">Add Item</button>
+        </form>
+      </div>
+      <div class="chart-section">
+        <h2>Category Analytics</h2>
+        <canvas id="expenseChart"></canvas>
+      </div>
+    </div>
+    <div class="list-section">
+      <h2>History</h2>
+      <ul id="transaction-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
