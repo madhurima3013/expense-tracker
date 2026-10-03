@@ -1,6 +1,6 @@
 # Expense Tracker Application
 
-**Developed by : S.Madhurima**
+<b>Directed by <span style="color: #2da44e;">S.Madhurima</span></b>
 
 ---
 
