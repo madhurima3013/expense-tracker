@@ -1,6 +1,9 @@
 # Expense Tracker Application
 
-<b>Directed by <span style="color: #2da44e;">S.Madhurima</span></b>
+<p style="font-size: 18px;">
+  <span style="color: #000000; font-weight: bold;">Directed by:</span> 
+  <span style="color: #2da44e; font-weight: bold;">S. Madhurima</span>
+</p>
 
 ---
 
