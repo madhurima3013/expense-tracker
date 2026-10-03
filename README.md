@@ -1,9 +1,6 @@
 # Expense Tracker Application
 
-<p style="font-size: 18px;">
-  <span style="color: #000000; font-weight: bold;">Directed by:</span> 
-  <span style="color: #2da44e; font-weight: bold;">S. Madhurima</span>
-</p>
+![Directed by](https://img.shields.io/badge/Directed_by_:-S.Madhurima-green?labelColor=black)
 
 ---
 
